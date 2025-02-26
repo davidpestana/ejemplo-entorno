@@ -1,2 +1,2 @@
 let counter = 0;
-setInterval(() => {console.log(counter++)}, 1000);
+setInterval(() => {console.log(counter++, 'v2')}, 1000);
